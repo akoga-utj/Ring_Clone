@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./ring_logo.ico">
+  <title>Ring</title>
+</head>
+<body>
+  <header>
+    <img src="menu.png" width="64" height="64">
+    <div class="state-info">
+      <h2>ログイン</h2>
+      <p>AMS Ring System</p>
+    </div>
+    <img src="info.png" width="64" height="64">
+  </header>
+  <main>
+    <img src="ring_logo.png" width="250" height="125">
+    <div class="login-components">
+      <fieldset>
+        <legend>ログインID</legend>
+        <input type="text">
+      </fieldset>
+
+      <fieldset>
+        <legend>パスワード</legend>
+        <input type="password">
+      </fieldset>
+
+      <button id="open">ログイン</button>
+    </div>
+  </main>
+  <footer>
+    v1.3.3
+  </footer>
+  <!-- モーダルウィンドウ -->
+  <div id="mask" class="hidden"></div>
+  <section id="modal" class="hidden">
+    <p>default</p>
+    <div id="close">
+      閉じる
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
